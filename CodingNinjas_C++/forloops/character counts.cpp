@@ -13,21 +13,21 @@ int main()
 
     while(ch!='$')
     {
-        
+        ch = cin.get();
 
-        if ('a'<= ch && ch<='z')
+        if ('a'<=ch<='z'|| 'A'<=ch<='Z')
         {
             alpha++;
         }
-        else if ('0'<=ch && ch<='9')
+        else if ('0'<=ch<='9')
         {
             number++;
         }
-        else if (ch==' '|| ch=='\t' || ch=='\n')
+        else if (ch==' '|| ch=='\t')
         {
             space++;
         }
-        ch = cin.get();
+        
 
 
     }

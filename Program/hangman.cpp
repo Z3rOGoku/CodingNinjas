@@ -67,7 +67,7 @@ int main()
   
   changeColor(9);
 
-  cout<<word<<endl;
+  // cout<<word<<endl;
   
   
   
