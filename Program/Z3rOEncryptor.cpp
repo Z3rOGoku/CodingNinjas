@@ -52,12 +52,12 @@ if(option=='A')
         cout<<"\n--Your Password is weak"<<endl;
     }
 
-    else if (5<c<10)
+    else if (5<c<=10)
     {
         cout<<"\n--your password is strong"<<endl;
     }
 
-    else if (c>10)
+    else if(c>10)
     {
         cout<<"\n--Your password is stronger than the HULK"<<endl;
     }
